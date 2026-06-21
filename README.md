@@ -48,7 +48,7 @@ A simple yet powerful command-line To-Do List Manager written in Python. Tasks a
 
 2. **Run the script**
    ```bash
-   python project1.py
+   python To-Do List Management System.py
    ```
 
 ---
@@ -58,7 +58,7 @@ A simple yet powerful command-line To-Do List Manager written in Python. Tasks a
 ```
 todo-list-manager/
 │
-├── project1.py      # Main application file
+├──  To-Do List Management System.py   # Main application file
 ├── tasks.json       # Auto-generated task storage (created on first run)
 └── README.md        # Project documentation
 ```
@@ -83,18 +83,7 @@ Tasks are stored in a local `tasks.json` file in the following format:
   }
 ]
 ```
-## ⚙️ How It Works
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐
-│  User Input │ ───► │  Core Logic  │ ───► │  tasks.json │
-│   (stdin)   │      │  (project1)  │      │  (storage)  │
-└─────────────┘      └──────────────┘      └─────────────┘
-                             │
-                    ┌────────┴────────┐
-                    ▼                 ▼
-              add / view       delete / mark
-```
 ---
 
 ## 📋 Usage Guide
